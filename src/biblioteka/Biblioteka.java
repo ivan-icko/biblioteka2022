@@ -10,7 +10,6 @@ public class Biblioteka implements BibliotekaInterfejs {
 	//ovo je lista sa svim knjigama u bibioteci
 	private List<Knjiga> knjige=new LinkedList<Knjiga>();
 	
-	//privatni komentar
 	
 	@Override
 	public void dodajKnjigu(Knjiga knjiga) {
